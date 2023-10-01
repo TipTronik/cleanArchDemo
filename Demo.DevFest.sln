@@ -26,7 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 Host", "7 Host", "{22AF84
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Host", "Demo.Host\Demo.Host.csproj", "{092E230F-552A-421B-BAAD-005574C15001}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Persistance\Persistance.csproj", "{89EA81BC-F14A-4C5D-BB25-3A21F96FAB40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance.Sqlite", "Persistance.Sqlite\Persistance.Sqlite.csproj", "{89EA81BC-F14A-4C5D-BB25-3A21F96FAB40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8054CE92-7101-4ABB-A697-93EF517C1E9D}"
 EndProject

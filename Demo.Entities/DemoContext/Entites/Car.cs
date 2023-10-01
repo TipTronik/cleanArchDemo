@@ -3,6 +3,9 @@ using Demo.Entities.DemoContext.Enums;
 
 namespace Demo.Entities.DemoContext.Entites;
 
+/// <summary>
+/// ДОМЕННАЯ СУЩНОСТЬ
+/// </summary>
 public class Car : IEntity<string>
 {
     public string Id { get; set; }

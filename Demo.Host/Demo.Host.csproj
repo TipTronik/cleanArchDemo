@@ -20,7 +20,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Controllers\Controllers.csproj" />
-      <ProjectReference Include="..\Persistance\Persistance.csproj" />
+      <ProjectReference Include="..\Persistance.Sqlite\Persistance.Sqlite.csproj" />
     </ItemGroup>
 
 </Project>

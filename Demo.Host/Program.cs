@@ -1,4 +1,5 @@
-using Persistance;
+using Logic;
+using Persistance.Sqlite;
 
 internal class Program
 {
@@ -9,6 +10,8 @@ internal class Program
         // Add services to the container.
 
         builder.Services.AddControllers();
+
+        builder.Services.AddLogic();
 
         builder.Services.AddPersistence();
             
