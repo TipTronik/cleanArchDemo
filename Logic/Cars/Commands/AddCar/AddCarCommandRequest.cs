@@ -5,7 +5,7 @@ namespace Logic.Cars.Commands.AddCar;
 
 public record AddCarCommandRequest : IRequest<Unit>
 {
-    public EngineType EngineType { get; set; }
+    public EngineType EngineType { get; init; }
     
-    public string Number { get; set; }
+    public string Number { get; init; }
 }

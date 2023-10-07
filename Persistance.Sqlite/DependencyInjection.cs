@@ -10,7 +10,7 @@ public static class DependencyInjection
     {
         service.AddDbContext<DbContext>(options =>
         {
-            options.UseSqlite("Filename=scat.db");
+            options.UseSqlite("Filename=demo.db");
         }, ServiceLifetime.Transient, ServiceLifetime.Transient);
 
         service.AddScoped<IDemoDbContext, DemoDbContext>();

@@ -18,13 +18,8 @@ public class CarsController : ApiControllerBase
     }
 
     [HttpPost]
-    public async Task Add()
+    public async Task Add([FromBody]AddCarCommandRequest request)
     {
-        var command = new AddCarCommandRequest()
-        {
-            
-        }
-
-        await Mediator.Send(command);
+        await Mediator.Send(request);
     }
 }
